@@ -1,0 +1,22 @@
+{
+    "name": "marom/package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Marom\\Package\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marom Beltran",
+            "email": "mrmbeltran@proton.me"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "monolog/monolog": "^3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    }
+}
